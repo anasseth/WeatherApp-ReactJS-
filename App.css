@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right,purple);
+}
+.win{
+  width: 900px;
+  height: 600px;
+  background-color: black;
+  background-image: url('city.jpg');
+  background-repeat: no-repeat;
+}
+b{
+  text-align:right;
+  /* border: 2px */
+  color:orange;
+}
+p{
+  color:white;
+  font-size:20px ;
+  text-align: left;
+  /* border:3px solid transparent; */
+  border-radius:3px;
+  /* background-image:linear-gradient(to right,white,lightskyblue);; */
+  margin-top: 50px;
+  margin-bottom:30px;
+  /* font-weight: bold; */
+  margin-left:20px;
+  width:auto;
+  height:40px
+  /* align-self:center; */
+}
+#Heading{
+  color:white;
+  /* background-color:white; */
+  background-image: none;
+  font-weight: bold;
+  font-size: 30px;
+  width: auto;
+  /* margin-left: 0px; */
+  border-radius: 0px;
+}
+.in{
+  width:250px;
+  height:30px;
+  border: 2px solid transparent;
+  border-bottom: 2px solid white;
+  background-color: black;
+  margin-left:15px;
+  margin-top:10px ;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+.in:focus{
+  outline: none
+
+}
+.in:hover{
+  border-bottom: 2px solid skyblue;
+  transition-duration: 0.5s;
+}
+.go{
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  outline: none;
+  border: 1px solid transparent;
+  transition-duration:0.5s;
+}
+.go:hover{
+  background-color: lightskyblue;
+  transition-duration: 0.5s;
+}
+.imgdisp{
+  width:600px;
+  height: 600px;
+  float: right
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /*background-color: black;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
