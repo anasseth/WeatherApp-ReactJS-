@@ -74,7 +74,7 @@ class App extends React.Component {
 
   render() {
 
-    var Data = <span><p>Location:<b>{this.state.city}</b></p><p>Temperture:<b>{this.state.temperature}</b></p><p>Humidity:<b>{this.state.humidity}</b></p><p>Description:<b>{this.state.description}</b></p></span>;
+    var Data = <span><p>Location: <b> {this.state.city}</b></p><p>Temperture: <b> {this.state.temperature}<sup>o</sup>C</b></p><p>Humidity: <b> {this.state.humidity}</b></p><p>Description: <b> {this.state.description}</b></p></span>;
 
     return (
       <div className="App">

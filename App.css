@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to right,purple);
+  background-image: linear-gradient(90deg ,purple, lightgray,purple,lightgray);
 }
 .win{
   width: 900px;
   height: 600px;
-  background-color: black;
-  background-image: url('city.jpg');
+  background-color: rgb(90, 88, 88);
+  background-image: url('./beautifulcity.jpg');
   background-repeat: no-repeat;
 }
 b{
@@ -38,13 +38,14 @@ p{
   width: auto;
   /* margin-left: 0px; */
   border-radius: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .in{
   width:250px;
   height:30px;
   border: 2px solid transparent;
   border-bottom: 2px solid white;
-  background-color: black;
+  background-color:  rgb(90, 88, 88);
   margin-left:15px;
   margin-top:10px ;
   text-decoration: none;
